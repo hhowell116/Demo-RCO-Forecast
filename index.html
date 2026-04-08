@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCO Forecasting & Data Platform — Project Tracker</title>
+    <title>Acme Forecasting & Data Platform — Project Tracker</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
     <!-- Firebase SDK removed for demo -->
@@ -17,8 +17,8 @@
     let isSyncing = false;
     </script>
     <style>
-    .demo-banner-top { position: fixed; top: 0; left: 0; right: 0; z-index: 99999; background: linear-gradient(135deg, #5f4b3c, #8d8173); color: #f5f1ec; text-align: center; padding: 8px 16px; font-size: 13px; font-weight: 600; letter-spacing: 0.5px; font-family: 'Inter', sans-serif; }
-    body { padding-top: 36px !important; }
+    .demo-banner-top { position: relative; z-index: 99999; background: var(--card-bg, #1e293b); color: var(--text-muted, #94a3b8); text-align: center; padding: 12px 20px; font-size: 12px; font-weight: 500; letter-spacing: 0.3px; font-family: 'Inter', sans-serif; border-bottom: 1px solid var(--border, rgba(255,255,255,0.08)); line-height: 1.6; }
+    .demo-banner-top strong { color: var(--accent, #818cf8); font-weight: 700; }
     </style>
     <style>
         :root {
@@ -1990,15 +1990,15 @@
     </style>
 </head>
 <body>
-<div class="demo-banner-top">Demo — Project Plan Preview — Sensitive Information Not Disclosed — Project In Progress</div>
+<div class="demo-banner-top"><strong>Demo Project Plan</strong> — This is a replica of an actual project plan for portfolio display purposes. Nothing in here is real or related to any company information. All sensitive data has been redacted. <strong>Project is currently in progress.</strong></div>
     <!-- Login Screen -->
     <div class="login-screen" id="loginScreen">
         <div class="login-card">
             <div class="login-icon">
                 <span class="material-symbols-outlined" style="color:white;font-size:32px">trending_up</span>
             </div>
-            <h1>RCO Forecast Tracker</h1>
-            <p>Sign in with your Rowe Casa Organics Google account to access the project tracker.</p>
+            <h1>Acme Forecast Tracker</h1>
+            <p>Sign in with your Acme Organics Google account to access the project tracker.</p>
             <button class="login-btn" id="loginBtn" onclick="signInWithGoogle()">
                 <svg viewBox="0 0 24 24"><path fill="#fff" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.27-4.74 3.27-8.1z"/><path fill="#fff" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#fff" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#fff" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
                 Sign in with Google
@@ -2018,7 +2018,7 @@
                     <span class="material-symbols-outlined" style="color:white;font-size:20px">trending_up</span>
                 </div>
                 <div>
-                    <div class="sidebar-logo-text">RCO Forecast</div>
+                    <div class="sidebar-logo-text">Acme Forecast</div>
                     <div class="sidebar-logo-sub">Data Platform & AI Forecasting</div>
                 </div>
             </div>
@@ -2075,7 +2075,7 @@
         </nav>
         <div class="sidebar-footer">
             <div class="sidebar-footer-text">
-                Rowe Casa Organics
+                Acme Organics
             </div>
         </div>
     </aside>
@@ -2106,7 +2106,7 @@
             <div class="tab-content active" id="tab-home">
                 <div class="hero-section animate-in">
                     <div class="hero-content">
-                        <div class="hero-eyebrow">Rowe Casa Organics — Forecasting Platform Proposal</div>
+                        <div class="hero-eyebrow">Acme Organics — Forecasting Platform Proposal</div>
                         <div class="hero-title">Demand Forecasting & Data Platform</div>
                         <div class="hero-subtitle">
                             A comprehensive proposal for building a custom data platform integrating Deacom ERP, Shopify, and Amazon
@@ -2200,8 +2200,8 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--primary)">summarize</span> Executive Summary</div>
                     </div>
                     <div class="card-body" style="font-size:13.5px;color:var(--text-secondary);line-height:1.9">
-                        Rowe Casa Organics has outgrown spreadsheet-based forecasting. At [Revenue Redacted] in revenue across Shopify DTC, Amazon FBA/FBM, and 400+ wholesale retail partners — with a hand-manufactured organic product line that has shelf life constraints and seasonal ingredient sourcing — we need a purpose-built demand forecasting platform.<br><br>
-                        <strong style="color:var(--text)">We are recommending that RCO build a custom forecasting platform</strong> powered by a centralized data lake, machine learning models, and manufacturing-aware planning. We evaluated every major third-party solution on the market and none of them adequately address the full scope of RCO's requirements. The sections below lay out exactly why, and exactly what building our own looks like.
+                        Acme Organics has outgrown spreadsheet-based forecasting. At [Revenue Redacted] in revenue across Shopify DTC, Amazon FBA/FBM, and 400+ wholesale retail partners — with a hand-manufactured organic product line that has shelf life constraints and seasonal ingredient sourcing — we need a purpose-built demand forecasting platform.<br><br>
+                        <strong style="color:var(--text)">We are recommending that Acme build a custom forecasting platform</strong> powered by a centralized data lake, machine learning models, and manufacturing-aware planning. We evaluated every major third-party solution on the market and none of them adequately address the full scope of Acme's requirements. The sections below lay out exactly why, and exactly what building our own looks like.
                     </div>
                 </div>
 
@@ -2216,7 +2216,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">check_circle</span> 1. No Third-Party Tool Covers Our Full Needs</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        We evaluated Flieber, Netstock, Inventory Planner, Streamline (GMDH), Lokad, DemandCaster, and several others. The findings are detailed in the <strong style="color:var(--text)">Solutions Deep Dive</strong> tab, but the summary is clear: <strong style="color:var(--text)">no tool has a native Deacom connector.</strong> Commerce-native tools like Flieber excel at Shopify + Amazon but have zero manufacturing planning. ERP-centric tools like Netstock handle supply planning but lack deep e-commerce integrations. Not a single tool we evaluated supports organic product shelf life / FEFO modeling out of the box. RCO sits at the intersection of e-commerce, wholesale, and hand manufacturing — that intersection is too specific for any general-purpose tool.
+                        We evaluated Flieber, Netstock, Inventory Planner, Streamline (GMDH), Lokad, DemandCaster, and several others. The findings are detailed in the <strong style="color:var(--text)">Solutions Deep Dive</strong> tab, but the summary is clear: <strong style="color:var(--text)">no tool has a native Deacom connector.</strong> Commerce-native tools like Flieber excel at Shopify + Amazon but have zero manufacturing planning. ERP-centric tools like Netstock handle supply planning but lack deep e-commerce integrations. Not a single tool we evaluated supports organic product shelf life / FEFO modeling out of the box. Acme sits at the intersection of e-commerce, wholesale, and hand manufacturing — that intersection is too specific for any general-purpose tool.
                     </div>
                 </div>
 
@@ -2234,7 +2234,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">check_circle</span> 3. Manufacturing Constraints Are Core, Not an Add-On</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        RCO isn't a reseller — we manufacture every product by hand. That means demand forecasting without production planning is half an answer. Our system must know: what are our batch sizes, how much labor is available, which equipment is running, what ingredients are in stock or in season, and what's the shelf life of finished goods. The forecast must be <strong style="color:var(--text)">constraint-aware from day one</strong> — it should never recommend producing something we can't actually make. No third-party forecasting tool integrates this deeply with a Deacom-based manufacturing operation.
+                        Acme isn't a reseller — we manufacture every product by hand. That means demand forecasting without production planning is half an answer. Our system must know: what are our batch sizes, how much labor is available, which equipment is running, what ingredients are in stock or in season, and what's the shelf life of finished goods. The forecast must be <strong style="color:var(--text)">constraint-aware from day one</strong> — it should never recommend producing something we can't actually make. No third-party forecasting tool integrates this deeply with a Deacom-based manufacturing operation.
                     </div>
                 </div>
 
@@ -2261,7 +2261,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">check_circle</span> 6. The Data Lake Serves More Than Forecasting</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        Once we have all of our data in one place, the value extends far beyond demand forecasting. The same data lake powers: <strong style="color:var(--text)">true margin analysis</strong> by SKU by channel (COGS + fees + shipping), <strong style="color:var(--text)">customer cohort analysis</strong> from Shopify, <strong style="color:var(--text)">Amazon advertising ROI</strong> tied to actual profitability, <strong style="color:var(--text)">wholesale partner performance</strong> tracking, <strong style="color:var(--text)">raw material spend optimization</strong>, and <strong style="color:var(--text)">executive dashboards</strong> that show the complete picture of the business. We're not just building a forecasting tool — we're building the data infrastructure RCO needs to operate as a data-driven company.
+                        Once we have all of our data in one place, the value extends far beyond demand forecasting. The same data lake powers: <strong style="color:var(--text)">true margin analysis</strong> by SKU by channel (COGS + fees + shipping), <strong style="color:var(--text)">customer cohort analysis</strong> from Shopify, <strong style="color:var(--text)">Amazon advertising ROI</strong> tied to actual profitability, <strong style="color:var(--text)">wholesale partner performance</strong> tracking, <strong style="color:var(--text)">raw material spend optimization</strong>, and <strong style="color:var(--text)">executive dashboards</strong> that show the complete picture of the business. We're not just building a forecasting tool — we're building the data infrastructure Acme needs to operate as a data-driven company.
                     </div>
                 </div>
 
@@ -2285,7 +2285,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--danger)">block</span> Commerce Tools Ignore Manufacturing</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        Flieber and Inventory Planner are excellent at Shopify + Amazon demand visibility. They'll tell you what's selling and when to reorder. But they have <strong style="color:var(--text)">zero concept of production planning</strong> — no BOM explosion, no batch scheduling, no capacity constraints, no ingredient availability tracking. For a reseller, that's fine. For a manufacturer, it's a half-answer. RCO doesn't just reorder products from a supplier — we make them. The forecasting tool needs to understand that.
+                        Flieber and Inventory Planner are excellent at Shopify + Amazon demand visibility. They'll tell you what's selling and when to reorder. But they have <strong style="color:var(--text)">zero concept of production planning</strong> — no BOM explosion, no batch scheduling, no capacity constraints, no ingredient availability tracking. For a reseller, that's fine. For a manufacturer, it's a half-answer. Acme doesn't just reorder products from a supplier — we make them. The forecasting tool needs to understand that.
                     </div>
                 </div>
 
@@ -2303,7 +2303,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--danger)">block</span> Nobody Handles Organic Product Constraints</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        Shelf life / expiration tracking, FEFO inventory allocation, seasonal organic ingredient sourcing, waste prevention forecasting — <strong style="color:var(--text)">none of the tools we evaluated have native support for these features</strong>. They were built for conventional consumer goods where products sit on shelves indefinitely. RCO's products expire. Our ingredients have harvest windows. Our wholesale partners have minimum shelf-life-remaining requirements. These constraints fundamentally change how forecasting works, and no vendor is going to build these features for one customer.
+                        Shelf life / expiration tracking, FEFO inventory allocation, seasonal organic ingredient sourcing, waste prevention forecasting — <strong style="color:var(--text)">none of the tools we evaluated have native support for these features</strong>. They were built for conventional consumer goods where products sit on shelves indefinitely. Acme's products expire. Our ingredients have harvest windows. Our wholesale partners have minimum shelf-life-remaining requirements. These constraints fundamentally change how forecasting works, and no vendor is going to build these features for one customer.
                     </div>
                 </div>
 
@@ -2386,7 +2386,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--info)">rocket_launch</span> Bottom Line</div>
                     </div>
                     <div class="card-body" style="font-size:13.5px;color:var(--text-secondary);line-height:1.9">
-                        We've done the research. We've evaluated the market. The tools that exist were built for simpler businesses — resellers, non-perishable goods, single-channel operations. RCO is none of those things. We're a multi-channel, hand-manufacturing, organic products company with unique constraints that no vendor is going to solve for us. Building custom gives us complete data ownership, full flexibility, lower long-term cost, and a system that's designed from the ground up for how RCO actually operates. The detailed engineering breakdown is in the <strong style="color:var(--text)">Full Build Blueprint</strong> tab. The vendor analysis is in <strong style="color:var(--text)">Solutions Deep Dive</strong>. The cost comparison is in <strong style="color:var(--text)">Build vs Buy</strong>.
+                        We've done the research. We've evaluated the market. The tools that exist were built for simpler businesses — resellers, non-perishable goods, single-channel operations. Acme is none of those things. We're a multi-channel, hand-manufacturing, organic products company with unique constraints that no vendor is going to solve for us. Building custom gives us complete data ownership, full flexibility, lower long-term cost, and a system that's designed from the ground up for how Acme actually operates. The detailed engineering breakdown is in the <strong style="color:var(--text)">Full Build Blueprint</strong> tab. The vendor analysis is in <strong style="color:var(--text)">Solutions Deep Dive</strong>. The cost comparison is in <strong style="color:var(--text)">Build vs Buy</strong>.
                     </div>
                 </div>
             </div>
@@ -2508,7 +2508,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--info)">summarize</span> Executive Summary</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.7">
-                        Building a custom forecasting platform means owning <strong style="color:var(--text)">11 major subsystems</strong>. Below is what each requires, its complexity, and what can go wrong. No off-the-shelf tool covers all of RCO's needs — Deacom integration, hand manufacturing constraints, multi-channel demand across DTC + Amazon + 400+ wholesale partners, and organic product shelf life modeling are all unique to us.
+                        Building a custom forecasting platform means owning <strong style="color:var(--text)">11 major subsystems</strong>. Below is what each requires, its complexity, and what can go wrong. No off-the-shelf tool covers all of Acme's needs — Deacom integration, hand manufacturing constraints, multi-channel demand across DTC + Amazon + 400+ wholesale partners, and organic product shelf life modeling are all unique to us.
                     </div>
                 </div>
 
@@ -2891,7 +2891,7 @@
                             <div class="card-title"><span class="material-symbols-outlined" style="color:var(--danger)">warning</span> Why This Is So Hard</div>
                         </div>
                         <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.7">
-                            RCO is a <strong style="color:var(--text)">hand manufacturer</strong> at [Revenue Redacted] revenue. That means production capacity is real and constrained — by labor, equipment, batch sizes, and facility limits. A purely demand-driven forecast that ignores these constraints is fantasy planning. The system must always show "will it sell?" alongside "can we make it?" — and flag conflicts.
+                            Acme is a <strong style="color:var(--text)">hand manufacturer</strong> at [Revenue Redacted] revenue. That means production capacity is real and constrained — by labor, equipment, batch sizes, and facility limits. A purely demand-driven forecast that ignores these constraints is fantasy planning. The system must always show "will it sell?" alongside "can we make it?" — and flag conflicts.
                         </div>
                     </div>
 
@@ -3374,7 +3374,7 @@
                 <!-- DATABASE SECTION -->
                 <div class="section-header" style="margin-top:32px">
                     <div class="section-title">Database: Azure SQL Database + Data Factory</div>
-                    <div class="section-subtitle">Why this is the right data platform for RCO — not Synapse, not Fabric (yet).</div>
+                    <div class="section-subtitle">Why this is the right data platform for Acme — not Synapse, not Fabric (yet).</div>
                 </div>
 
                 <div class="card" style="margin-bottom:16px">
@@ -3382,7 +3382,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">check_circle</span> Aligned with Our Microsoft Move</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        RCO is moving to a Microsoft environment — M365, Azure AD, the full stack. Building our data platform on Azure means everything lives under one roof: identity management, billing, security, and tooling. Azure SQL Database is Microsoft's managed relational database — fully compatible with SQL Server (which Deacom also runs on), so our team's SQL knowledge transfers directly. No new query language, no new paradigm.
+                        Acme is moving to a Microsoft environment — M365, Azure AD, the full stack. Building our data platform on Azure means everything lives under one roof: identity management, billing, security, and tooling. Azure SQL Database is Microsoft's managed relational database — fully compatible with SQL Server (which Deacom also runs on), so our team's SQL knowledge transfers directly. No new query language, no new paradigm.
                     </div>
                 </div>
 
@@ -3391,7 +3391,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">check_circle</span> Right-Sized for Our Data Volume</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        RCO's total data is ~500 GB - 1 TB. Azure SQL Database handles this comfortably — it's designed for exactly this scale. Synapse is built for 100+ TB enterprise workloads (see the Azure Synapse Deep Dive tab for why it's overkill). Azure SQL gives us a fully managed database with automatic backups, built-in high availability, and no infrastructure to manage. We pay for what we use — starting as low as $300-500/month for compute + storage.
+                        Acme's total data is ~500 GB - 1 TB. Azure SQL Database handles this comfortably — it's designed for exactly this scale. Synapse is built for 100+ TB enterprise workloads (see the Azure Synapse Deep Dive tab for why it's overkill). Azure SQL gives us a fully managed database with automatic backups, built-in high availability, and no infrastructure to manage. We pay for what we use — starting as low as $300-500/month for compute + storage.
                     </div>
                 </div>
 
@@ -3518,7 +3518,7 @@
                         <strong style="color:var(--text)">The problem it solves:</strong> If we forecast Shopify, Amazon, and wholesale independently, those numbers won't add up. We might forecast 1,000 units on Shopify, 800 on Amazon, and 500 wholesale — but the product-level total forecast says 2,100. That's a 200-unit discrepancy. Which number does production trust? Which one do we make?<br><br>
                         <strong style="color:var(--text)">How it works:</strong> HierarchicalForecast takes the individual channel forecasts and reconciles them so they're mathematically consistent. Channel forecasts sum to the product total. Product totals sum to the category total. Category totals sum to the company total. Every level is coherent.<br><br>
                         <strong style="color:var(--text)">Why it matters for manufacturing:</strong> Production planning needs one number per SKU: how many to make. If different channels give different answers and they don't reconcile, the production planner is guessing. Hierarchical reconciliation gives one trustworthy number that accounts for all channels.<br><br>
-                        <strong style="color:var(--text)">Hierarchy for RCO:</strong><br>
+                        <strong style="color:var(--text)">Hierarchy for Acme:</strong><br>
                         Total Company &#8594; Product Category &#8594; Individual SKU &#8594; SKU by Channel (Shopify / Amazon FBA / Amazon FBM / Wholesale)
                     </div>
                 </div>
@@ -3641,7 +3641,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">play_arrow</span> Where to Start</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        <strong style="color:var(--text)">Step 1:</strong> Provision Azure subscription aligned with RCO's M365 tenant. Set up Azure SQL Database, Data Factory, and Key Vault.<br>
+                        <strong style="color:var(--text)">Step 1:</strong> Provision Azure subscription aligned with Acme's M365 tenant. Set up Azure SQL Database, Data Factory, and Key Vault.<br>
                         <strong style="color:var(--text)">Step 2:</strong> Pull Shopify historical data (API key already acquired) into Azure SQL. Run exploratory analysis — understand sales patterns, seasonality, top SKUs.<br>
                         <strong style="color:var(--text)">Step 3:</strong> Run StatsForecast baselines on Shopify data via Azure Functions. This proves the concept and gives us our first demand forecasts with minimal effort.<br>
                         <strong style="color:var(--text)">Step 4:</strong> Deploy SHIR for Deacom connectivity. Build Deacom and Amazon SP-API pipelines in Data Factory. Unify SKU master table in Azure SQL.<br>
@@ -3655,7 +3655,7 @@
             <div class="tab-content" id="tab-synapse">
                 <div class="section-header">
                     <div class="section-title">Azure Synapse Analytics — Deep Dive</div>
-                    <div class="section-subtitle">Is Synapse the right platform for RCO? An honest assessment.</div>
+                    <div class="section-subtitle">Is Synapse the right platform for Acme? An honest assessment.</div>
                 </div>
 
                 <!-- Verdict -->
@@ -3664,7 +3664,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--warning)">gavel</span> The Verdict</div>
                     </div>
                     <div class="card-body" style="font-size:13.5px;color:var(--text-secondary);line-height:1.9">
-                        Azure Synapse Analytics is a powerful enterprise data platform, but it's <strong style="color:var(--text)">likely overkill for RCO</strong>. It's designed for Netflix/Adobe-scale workloads (100+ TB, thousands of concurrent users). RCO's data volume (~500 GB-1 TB) and user count (5-20 dashboard users) are well below the threshold where Synapse's complexity pays off. Additionally, <strong style="color:var(--text)">Microsoft is strategically shifting investment to Microsoft Fabric</strong>, with Synapse components already being deprecated. For a company starting fresh, there are simpler, cheaper options that do everything RCO needs.
+                        Azure Synapse Analytics is a powerful enterprise data platform, but it's <strong style="color:var(--text)">likely overkill for Acme</strong>. It's designed for Netflix/Adobe-scale workloads (100+ TB, thousands of concurrent users). Acme's data volume (~500 GB-1 TB) and user count (5-20 dashboard users) are well below the threshold where Synapse's complexity pays off. Additionally, <strong style="color:var(--text)">Microsoft is strategically shifting investment to Microsoft Fabric</strong>, with Synapse components already being deprecated. For a company starting fresh, there are simpler, cheaper options that do everything Acme needs.
                     </div>
                 </div>
 
@@ -3687,7 +3687,7 @@
                                     <th>What It Does</th>
                                     <th>Best For</th>
                                     <th>Cost Model</th>
-                                    <th>RCO Relevance</th>
+                                    <th>Relevance</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -3755,7 +3755,7 @@
                 <div class="tech-card" style="margin-bottom:16px">
                     <div class="tech-card-header">
                         <span class="material-symbols-outlined" style="color:var(--warning)">payments</span>
-                        <h3>Monthly Cost Scenarios for RCO</h3>
+                        <h3>Monthly Cost Scenarios for Acme</h3>
                     </div>
                     <div class="tech-card-body">
                         <table class="tech-table">
@@ -3889,16 +3889,16 @@
                     </div>
                 </div>
 
-                <!-- The Right Path for RCO -->
+                <!-- The Right Path for Acme -->
                 <div class="section-header" style="margin-top:32px">
-                    <div class="section-title">What's Actually Right for RCO</div>
+                    <div class="section-title">What's Actually Right for Acme</div>
                     <div class="section-subtitle">A simpler, cheaper path that does everything we need.</div>
                 </div>
 
                 <div class="tech-card" style="margin-bottom:16px">
                     <div class="tech-card-header">
                         <span class="material-symbols-outlined" style="color:var(--success)">compare</span>
-                        <h3>Platform Comparison for RCO's Scale</h3>
+                        <h3>Platform Comparison for Acme's Scale</h3>
                     </div>
                     <div class="tech-card-body">
                         <table class="tech-table">
@@ -3927,7 +3927,7 @@
 
                 <div class="card" style="margin-bottom:16px;border-left:4px solid var(--success)">
                     <div class="card-header">
-                        <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">recommend</span> Recommendation for RCO</div>
+                        <div class="card-title"><span class="material-symbols-outlined" style="color:var(--success)">recommend</span> Recommendation for Acme</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.9">
                         <strong style="color:var(--text)">Recommended — Azure SQL Database + Data Factory:</strong> Right-sized for our data volume, aligns with our Microsoft move. Azure SQL handles ETL from Deacom, Shopify, Amazon. Azure Functions runs ML forecasting (Python). Power BI connects natively. Total: ~$400-730/mo. Upgrade to Fabric later only if we outgrow it.<br><br>
@@ -3940,7 +3940,7 @@
             <div class="tab-content" id="tab-ai">
                 <div class="section-header">
                     <div class="section-title">AI / ML Forecasting Roadmap</div>
-                    <div class="section-subtitle">Three-phase approach to building intelligent demand forecasting for RCO.</div>
+                    <div class="section-subtitle">Three-phase approach to building intelligent demand forecasting for Acme.</div>
                 </div>
 
                 <div class="card" style="margin-bottom:24px">
@@ -3961,7 +3961,7 @@
                             <div class="ai-phase-badge p1">Core</div>
                             <div class="ai-phase-content">
                                 <h4>Statistical Demand Forecasting</h4>
-                                <p>Baseline forecast by SKU × channel using 2+ years of historical sales data. Time-series models: Prophet, exponential smoothing, or LightGBM — all good fits for RCO's volume. Results write back to the warehouse and surface in Power BI as forecast vs. actuals dashboards.</p>
+                                <p>Baseline forecast by SKU × channel using 2+ years of historical sales data. Time-series models: Prophet, exponential smoothing, or LightGBM — all good fits for Acme's volume. Results write back to the warehouse and surface in Power BI as forecast vs. actuals dashboards.</p>
                             </div>
                         </div>
                         <div class="ai-phase">
@@ -4041,7 +4041,7 @@
                                 <div class="ai-phase-badge p3">Predict</div>
                                 <div class="ai-phase-content">
                                     <h4>B2B Reorder Prediction</h4>
-                                    <p>Which of RCO's [XXX]+ retail accounts is likely to reorder this month? ML-driven predictions.</p>
+                                    <p>Which of Acme's [XXX]+ retail accounts is likely to reorder this month? ML-driven predictions.</p>
                                 </div>
                             </div>
                         </div>
@@ -4062,7 +4062,7 @@
             <div class="tab-content" id="tab-solutions">
                 <div class="section-header">
                     <div class="section-title">Solutions Deep Dive</div>
-                    <div class="section-subtitle">Comprehensive analysis of every paid tool we evaluated — scored against RCO's specific requirements.</div>
+                    <div class="section-subtitle">Comprehensive analysis of every paid tool we evaluated — scored against Acme's specific requirements.</div>
                 </div>
 
                 <div class="card" style="margin-bottom:24px;border-left:4px solid var(--warning)">
@@ -4070,15 +4070,15 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--warning)">lightbulb</span> Key Finding</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.7">
-                        <strong>No single tool perfectly covers all of RCO's requirements.</strong> Commerce-native tools (Flieber, Inventory Planner) excel at Shopify + Amazon but lack production planning. ERP-centric tools (Netstock, DemandCaster) handle manufacturing but need custom work for e-commerce channels. <strong>No tool has a native Deacom connector</strong> — integration requires middleware or custom API work in all cases. The scorecard below makes this gap analysis visual.
+                        <strong>No single tool perfectly covers all of Acme's requirements.</strong> Commerce-native tools (Flieber, Inventory Planner) excel at Shopify + Amazon but lack production planning. ERP-centric tools (Netstock, DemandCaster) handle manufacturing but need custom work for e-commerce channels. <strong>No tool has a native Deacom connector</strong> — integration requires middleware or custom API work in all cases. The scorecard below makes this gap analysis visual.
                     </div>
                 </div>
 
-                <!-- RCO Requirements Matrix -->
+                <!-- Requirements Matrix -->
                 <div class="tech-card" style="margin-bottom:24px">
                     <div class="tech-card-header">
                         <span class="material-symbols-outlined" style="color:var(--primary)">fact_check</span>
-                        <h3>RCO's Unique Requirements</h3>
+                        <h3>Acme's Unique Requirements</h3>
                     </div>
                     <div class="tech-card-body">
                         <table class="tech-table">
@@ -4086,13 +4086,13 @@
                                 <tr>
                                     <th>Requirement</th>
                                     <th>Critical?</th>
-                                    <th>Why It Matters for RCO</th>
+                                    <th>Why It Matters for Acme</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr><td>Native Shopify Integration</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>DTC is a core channel. Need real-time order/inventory sync.</td></tr>
                                 <tr><td>Native Amazon FBA/FBM</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>Complex FBA logistics, fee structures, restock recommendations.</td></tr>
-                                <tr><td>Deacom ERP Connector</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>No vendor has this. Always custom. This is RCO's unique challenge.</td></tr>
+                                <tr><td>Deacom ERP Connector</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>No vendor has this. Always custom. This is Acme's unique challenge.</td></tr>
                                 <tr><td>BOM / Production Planning</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>Hand manufacturing — forecast must translate to production schedules.</td></tr>
                                 <tr><td>Shelf Life / Expiration</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>Organic products expire. FEFO inventory, waste prevention.</td></tr>
                                 <tr><td>Multi-Channel Aggregation</td><td><span style="color:var(--danger);font-weight:700">MUST HAVE</span></td><td>DTC + Amazon + 400+ wholesale partners. Unified demand view.</td></tr>
@@ -4219,7 +4219,7 @@
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.7">
                         <strong style="color:var(--text)">Implementation fees:</strong> $10K-50K for enterprise tools, even before monthly licensing begins.<br>
                         <strong style="color:var(--text)">Middleware costs:</strong> Celigo, Workato, or Boomi for Deacom integration: $500-2,000/mo on top of the SaaS fee.<br>
-                        <strong style="color:var(--text)">Ongoing customization:</strong> Any RCO-specific logic (shelf life rules, manufacturing constraints) requires professional services hours at $200-400/hr.<br>
+                        <strong style="color:var(--text)">Ongoing customization:</strong> Any company-specific logic (shelf life rules, manufacturing constraints) requires professional services hours at $200-400/hr.<br>
                         <strong style="color:var(--text)">Data migration risk:</strong> If the vendor changes direction, raises prices, or gets acquired — switching is painful. Your data and models live in their system.<br>
                         <strong style="color:var(--text)">Feature requests:</strong> Need a feature the vendor doesn't have? You're at the mercy of their product roadmap. Organic-specific requirements rarely get prioritized.<br>
                         <strong style="color:var(--text)">Price increases at renewal:</strong> SaaS vendors commonly increase pricing 5-15% annually. Year 3 costs significantly more than Year 1.
@@ -4550,7 +4550,7 @@
                                 <div class="solution-detail"><h4>Est. Pricing</h4><p>$1,000 - $3,000/mo (custom)</p></div>
                                 <div class="solution-detail"><h4>Integrations</h4><p>Shopify + Amazon. ERP integration varies.</p></div>
                                 <div class="solution-detail"><h4>Mfg Planning</h4><p>Limited. Focused on purchasing, not production.</p></div>
-                                <div class="solution-detail"><h4>Key Strength</h4><p>Modern AI, built for e-commerce at RCO's scale. Newer — verify maturity.</p></div>
+                                <div class="solution-detail"><h4>Key Strength</h4><p>Modern AI, built for e-commerce at Acme's scale. Newer — verify maturity.</p></div>
                             </div>
                         </div>
                     </div>
@@ -4579,11 +4579,11 @@
                 </div>
 
                 <!-- Tier 3: Not Recommended -->
-                <div class="tier-header"><div class="tier-dot t3"></div> Tier 3 — Not Recommended for RCO</div>
+                <div class="tier-header"><div class="tier-dot t3"></div> Tier 3 — Not Recommended for Acme</div>
 
                 <div class="card" style="margin-bottom:24px">
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.8">
-                        <strong style="color:var(--text)">Enterprise platforms (Blue Yonder, Kinaxis, SAP IBP, Oracle Demantra, o9 Solutions)</strong> — $100K-$500K+/year, designed for $1B+ companies. Massively oversized and overpriced for RCO.<br>
+                        <strong style="color:var(--text)">Enterprise platforms (Blue Yonder, Kinaxis, SAP IBP, Oracle Demantra, o9 Solutions)</strong> — $100K-$500K+/year, designed for $1B+ companies. Massively oversized and overpriced for Acme.<br>
                         <strong style="color:var(--text)">Shopify-only tools (Stocky, Prediko, Cogsy)</strong> — Too basic or too Shopify-only. No Amazon integration, no ERP, no manufacturing planning.<br>
                         <strong style="color:var(--text)">Basic tools (StockTrim, Forecastly/Viral Launch)</strong> — Insufficient for a [Revenue Redacted] manufacturer with complex multi-channel operations.<br>
                         <strong style="color:var(--text)">Fashion-oriented (Toolio)</strong> — Designed for fashion merchandise planning, not manufacturing demand forecasting.
@@ -4751,7 +4751,7 @@
                 <div class="tech-card">
                     <div class="tech-card-header">
                         <span class="material-symbols-outlined" style="color:var(--info)">psychology</span>
-                        <h3>Open-Source Forecasting Libraries — Comparison for RCO</h3>
+                        <h3>Open-Source Forecasting Libraries — Comparison for Acme</h3>
                     </div>
                     <div class="tech-card-body">
                         <table class="tech-table">
@@ -4833,7 +4833,7 @@
                             </tbody>
                         </table>
                         <div style="margin-top:16px;padding:12px 16px;background:#d1fae5;border-radius:var(--radius-sm);font-size:12.5px;color:#047857;line-height:1.6">
-                            <strong>Recommended Stack for RCO:</strong><br>
+                            <strong>Recommended Stack for Acme:</strong><br>
                             <strong>1. StatsForecast (Nixtla)</strong> — fast baselines across all SKUs. Use <strong>CrostonOptimized</strong> for slow/intermittent movers (long-tail SKUs) and <strong>AutoETS</strong> for standard SKUs.<br>
                             <strong>2. LightGBM via MLForecast (Nixtla)</strong> — primary production model for top SKUs with rich features (promos, channel, price, seasonality). Auto-generates lag features and rolling stats.<br>
                             <strong>3. HierarchicalForecast (Nixtla)</strong> — ensures channel-level forecasts (Shopify + Amazon + Wholesale) sum coherently to totals. Critical for multi-channel planning.<br>
@@ -5009,7 +5009,7 @@
             <div class="tab-content" id="tab-build-vs-buy">
                 <div class="section-header">
                     <div class="section-title">Build vs Buy Analysis</div>
-                    <div class="section-subtitle">Side-by-side comparison to help leadership decide the right approach for RCO.</div>
+                    <div class="section-subtitle">Side-by-side comparison to help leadership decide the right approach for Acme.</div>
                 </div>
 
                 <div class="card" style="margin-bottom:24px;overflow-x:auto">
@@ -5099,7 +5099,7 @@
                                     <div class="score-bar"><div class="score-bar-fill yellow" style="width:45%"></div></div>
                                 </td>
                                 <td>
-                                    <strong>Custom-built</strong> to RCO's exact process — hand manufacturing, batch sizes, ingredient constraints.
+                                    <strong>Custom-built</strong> to Acme's exact process — hand manufacturing, batch sizes, ingredient constraints.
                                     <div class="score-bar"><div class="score-bar-fill green" style="width:85%"></div></div>
                                 </td>
                                 <td>
@@ -5113,7 +5113,7 @@
                                     <strong>Good</strong> (70-85% MAPE). Off-the-shelf algorithms work for standard patterns. Limited tuning.
                                 </td>
                                 <td>
-                                    <strong>Potentially best</strong> (80-92%+ MAPE). Custom features for RCO's specific patterns. Requires expertise to achieve.
+                                    <strong>Potentially best</strong> (80-92%+ MAPE). Custom features for Acme's specific patterns. Requires expertise to achieve.
                                 </td>
                                 <td>
                                     <strong>Best potential</strong>. SaaS as baseline, custom models for top SKUs where accuracy matters most.
@@ -5122,15 +5122,15 @@
                             <tr>
                                 <td>Flexibility</td>
                                 <td>
-                                    <strong>Low</strong>. Limited to vendor's feature roadmap. Can't customize algorithms or add RCO-specific logic.
+                                    <strong>Low</strong>. Limited to vendor's feature roadmap. Can't customize algorithms or add company-specific logic.
                                     <div class="score-bar"><div class="score-bar-fill red" style="width:25%"></div></div>
                                 </td>
                                 <td>
-                                    <strong>Maximum</strong>. Build exactly what RCO needs. Add ingredient constraints, batch planning, custom rules.
+                                    <strong>Maximum</strong>. Build exactly what Acme needs. Add ingredient constraints, batch planning, custom rules.
                                     <div class="score-bar"><div class="score-bar-fill green" style="width:95%"></div></div>
                                 </td>
                                 <td>
-                                    <strong>High</strong>. SaaS for standard needs, custom for RCO-specific.
+                                    <strong>High</strong>. SaaS for standard needs, custom for Acme-specific.
                                     <div class="score-bar"><div class="score-bar-fill blue" style="width:80%"></div></div>
                                 </td>
                             </tr>
@@ -5171,7 +5171,7 @@
                         After evaluating all options, our recommendation is to <strong style="color:var(--text)">build custom on Azure SQL Database + Data Factory</strong> using open-source forecasting models (Nixtla stack). Here's why:<br><br>
                         <strong style="color:var(--text)">1. No SaaS tool covers our full needs</strong> — every vendor we evaluated lacks native Deacom integration, shelf life modeling, and manufacturing constraint awareness. Even with a $30-60K/yr SaaS tool, we'd still need to build the hardest parts ourselves.<br><br>
                         <strong style="color:var(--text)">2. We need every inch of our data</strong> — SaaS tools import a subset of our data into their schema. We need complete control over ingestion, transformation, and feature engineering to build models that truly understand our business.<br><br>
-                        <strong style="color:var(--text)">3. The cost math favors building</strong> — Azure infrastructure runs $400-730/mo ($5-9K/yr). The forecasting libraries are free. Compare that to $20-60K/yr for a SaaS tool that still doesn't solve the Deacom problem. Over 3 years, building custom saves $40-150K while delivering a system designed exactly for RCO.<br><br>
+                        <strong style="color:var(--text)">3. The cost math favors building</strong> — Azure infrastructure runs $400-730/mo ($5-9K/yr). The forecasting libraries are free. Compare that to $20-60K/yr for a SaaS tool that still doesn't solve the Deacom problem. Over 3 years, building custom saves $40-150K while delivering a system designed exactly for Acme.<br><br>
                         <strong style="color:var(--text)">4. We own everything</strong> — the code, models, data, and infrastructure. No vendor lock-in, no price increases, no features sunsetted. The data lake becomes a strategic asset that serves forecasting, margin analysis, and operational intelligence.<br><br>
                         <strong style="color:var(--text)">5. Aligns with our Microsoft move</strong> — Azure SQL, Data Factory, Power BI, Azure Functions — all part of the ecosystem we're already moving into. One vendor relationship, unified identity management, integrated tooling.
                     </div>
@@ -5255,7 +5255,7 @@
                             </tbody>
                         </table>
                         <p style="font-size:11px;color:var(--text-muted);margin-top:12px;line-height:1.5">
-                            Build costs are infrastructure and licensing only — all development handled in-house. Forecasting libraries are open-source ($0). SaaS "Buy" costs include the tool PLUS Deacom middleware that's still needed because no vendor has a native connector. The 3-year delta: building custom saves $83K-$273K compared to buying, while delivering a system custom-built for RCO's specific needs.
+                            Build costs are infrastructure and licensing only — all development handled in-house. Forecasting libraries are open-source ($0). SaaS "Buy" costs include the tool PLUS Deacom middleware that's still needed because no vendor has a native connector. The 3-year delta: building custom saves $83K-$273K compared to buying, while delivering a system custom-built for Acme's specific needs.
                         </p>
                     </div>
                 </div>
@@ -5265,7 +5265,7 @@
             <div class="tab-content" id="tab-risks">
                 <div class="section-header">
                     <div class="section-title">Risks & Gotchas</div>
-                    <div class="section-subtitle">Key risks specific to RCO's forecasting modernization — with mitigation strategies.</div>
+                    <div class="section-subtitle">Key risks specific to Acme's forecasting modernization — with mitigation strategies.</div>
                 </div>
 
                 <div id="risksContainer">
@@ -5284,7 +5284,7 @@
                         <div class="card-title"><span class="material-symbols-outlined" style="color:var(--warning)">info</span> Important Notes</div>
                     </div>
                     <div class="card-body" style="font-size:13px;color:var(--text-secondary);line-height:1.7">
-                        These are estimates based on publicly available Azure pricing. Actual costs depend on usage patterns, data volumes, and region. Reserved capacity (1-year or 3-year commits) can save 25-65% on most services. All prices are USD pay-as-you-go. Use the <a href="https://azure.microsoft.com/en-us/pricing/calculator/" target="_blank" style="color:var(--primary)">Azure Pricing Calculator</a> for precise estimates tailored to RCO's workload.
+                        These are estimates based on publicly available Azure pricing. Actual costs depend on usage patterns, data volumes, and region. Reserved capacity (1-year or 3-year commits) can save 25-65% on most services. All prices are USD pay-as-you-go. Use the <a href="https://azure.microsoft.com/en-us/pricing/calculator/" target="_blank" style="color:var(--primary)">Azure Pricing Calculator</a> for precise estimates tailored to Acme's workload.
                     </div>
                 </div>
                 <div id="budgetContainer">
@@ -5333,7 +5333,7 @@ const phases = [
         description: "Provision Azure environment — Synapse workspace, Data Factory, networking, security, and M365 alignment.",
         timeline: "Phase 2",
         tasks: [
-            { title: "Provision Azure subscription and resource group", desc: "Align with RCO's M365 tenant and Azure AD", tags: ["azure"], checked: false },
+            { title: "Provision Azure subscription and resource group", desc: "Align with Acme's M365 tenant and Azure AD", tags: ["azure"], checked: false },
             { title: "Set up Azure Synapse Analytics workspace", desc: "Centralized data warehouse — this is the core of the platform", tags: ["azure", "critical"], checked: false },
             { title: "Configure Azure Data Factory instance", desc: "ETL orchestration — pipelines for all data sources", tags: ["azure"], checked: false },
             { title: "Set up networking and security", desc: "VPN/ExpressRoute for Deacom on-prem connection, firewall rules, managed identities", tags: ["azure", "critical"], checked: false },
@@ -5551,11 +5551,11 @@ let phaseStatuses = {};
 
 function loadState() {
     try {
-        const saved = localStorage.getItem('rco-forecast-checklist');
+        const saved = localStorage.getItem('demo-forecast-checklist');
         if (saved) checklistState = JSON.parse(saved);
-        const savedNotes = localStorage.getItem('rco-forecast-notes');
+        const savedNotes = localStorage.getItem('demo-forecast-notes');
         if (savedNotes) notesState = JSON.parse(savedNotes);
-        const savedStatuses = localStorage.getItem('rco-forecast-statuses');
+        const savedStatuses = localStorage.getItem('demo-forecast-statuses');
         if (savedStatuses) phaseStatuses = JSON.parse(savedStatuses);
     } catch(e) {}
 }
@@ -5563,9 +5563,9 @@ function loadState() {
 function saveState() {
     // Save to localStorage as backup
     try {
-        localStorage.setItem('rco-forecast-checklist', JSON.stringify(checklistState));
-        localStorage.setItem('rco-forecast-notes', JSON.stringify(notesState));
-        localStorage.setItem('rco-forecast-statuses', JSON.stringify(phaseStatuses));
+        localStorage.setItem('demo-forecast-checklist', JSON.stringify(checklistState));
+        localStorage.setItem('demo-forecast-notes', JSON.stringify(notesState));
+        localStorage.setItem('demo-forecast-statuses', JSON.stringify(phaseStatuses));
     } catch(e) {}
     // Save to Firestore for real-time sync (skip if this was triggered by an incoming sync)
     if (!isSyncing) {
