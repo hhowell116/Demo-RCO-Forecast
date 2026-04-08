@@ -17,12 +17,13 @@
     let isSyncing = false;
     </script>
     <style>
-    .demo-banner-top { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background: var(--card-bg, #1e293b); color: var(--text-muted, #94a3b8); text-align: center; padding: 10px 20px; font-size: 12px; font-weight: 500; letter-spacing: 0.3px; font-family: 'Inter', sans-serif; border-bottom: 1px solid var(--border, rgba(255,255,255,0.08)); line-height: 1.5; }
+    :root { --banner-h: 52px; }
+    .demo-banner-top { position: fixed; top: 0; left: 0; right: 0; height: var(--banner-h); z-index: 10000; background: var(--card-bg, #1e293b); color: var(--text-muted, #94a3b8); text-align: center; padding: 8px 20px; font-size: 11px; font-weight: 500; letter-spacing: 0.3px; font-family: 'Inter', sans-serif; border-bottom: 1px solid var(--border, rgba(255,255,255,0.08)); line-height: 1.5; display: flex; align-items: center; justify-content: center; }
     .demo-banner-top strong { color: var(--accent, #818cf8); font-weight: 700; }
-    .sidebar { top: 52px !important; height: calc(100vh - 52px) !important; }
-    .login-screen { top: 52px !important; height: calc(100vh - 52px) !important; }
-    .main { margin-top: 52px !important; }
-    .topbar { top: 52px !important; }
+    .sidebar { top: var(--banner-h) !important; height: calc(100vh - var(--banner-h)) !important; }
+    .login-screen { top: var(--banner-h) !important; height: calc(100vh - var(--banner-h)) !important; }
+    .topbar { top: var(--banner-h) !important; }
+    .main { padding-top: var(--banner-h) !important; }
     </style>
     <style>
         :root {
